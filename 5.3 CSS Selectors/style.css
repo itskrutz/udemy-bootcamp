@@ -1,0 +1,26 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+p{
+  color: red;
+}/* This is an element selector*/
+
+.note{
+  font: size 20px;;
+} /* This is class selector. we use the dot for this*/
+
+#id-selector-demo{
+  color: green;
+} /* This is an id selector. We use a # for this*/
+
+li[value="4"]{
+  color: blue;
+} /* This is an attribute selector where we specift the attribute and sometimes even it's value.*/
+
+*{
+  text-align: center;
+} /* This is a universal selector */
+/* Write your CSS below, don't change the rules above. */
